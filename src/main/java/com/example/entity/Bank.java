@@ -9,6 +9,7 @@ import jakarta.persistence.Id;
 public class Bank {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	int j = 10;
 	private int bank_Id ;
 	private String branch;
 	private String passbook;
